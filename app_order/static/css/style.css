@@ -26,12 +26,16 @@
 .card {
   display: flex;
   padding: 10px;
+  margin-right: 10px;
   flex-direction: column;
   justify-content: space-between;
   width: 120px;
   height: 180px;
   border-radius: 15px;
   border: 1px solid gray;
+}
+card:last-child {
+  margin-right: 0;
 }
 
 .card-header{
